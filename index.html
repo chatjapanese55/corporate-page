@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>合同会社Symarch | シマーク</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet（同一ディレクトリ） -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============================================================
+     NAVIGATION
+     ============================================================ -->
+<nav id="nav">
+  <a href="#home" class="nav-logo" id="logo-link">
+    <!--
+      ロゴ画像を用意したら logo.png（または任意のファイル名）を
+      このファイルと同じフォルダに置いてください。
+      画像が見つからない場合はテキストロゴに自動フォールバックします。
+    -->
+    <img
+      src="logo.png"
+      alt="Symarch ロゴ"
+      id="logo-img"
+      onerror="this.style.display='none'; document.getElementById('logo-text').style.display='flex';"
+    >
+    <span id="logo-text" class="nav-logo-text" style="display: none;">
+      <span>Symarch</span>
+      <span>合同会社シマーク</span>
+    </span>
+  </a>
+
+  <ul class="nav-links">
+    <li><a href="#vmv">ビジョン</a></li>
+    <li><a href="#about">会社について</a></li>
+    <li><a href="#business">事業内容</a></li>
+    <li><a href="#representative">代表</a></li>
+    <li><a href="#company">会社概要</a></li>
+    <li><a href="#contact" class="nav-cta">お問い合わせ</a></li>
+  </ul>
+</nav>
+
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<div class="hero" id="home">
+  <div class="hero-left">
+    <p class="hero-eyebrow">合同会社Symarch &nbsp;·&nbsp; Tokyo, Japan</p>
+
+    <h1 class="hero-title-ja">観光客とローカルの<br>壁がない社会へ。</h1>
+    <p class="hero-title-en">Breaking Barriers Between<br>Tourists &amp; Locals.</p>
+
+    <p class="hero-sub-ja">
+      言語は「学ぶもの」ではなく「繋がるもの」。<br>
+      より多くの観光客を、ローカルにする。
+    </p>
+    <p class="hero-sub-en">
+      Language isn't something you study — it's something you connect with.<br>
+      We turn more tourists into locals.
+    </p>
+
+    <div class="hero-actions">
+      <a href="#business" class="btn-primary">事業内容を見る &nbsp;→</a>
+      <a href="#contact"  class="btn-ghost">お問い合わせ</a>
+    </div>
+  </div>
+
+  <div class="hero-right">
+    <div class="hero-graphic">
+      <svg viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="150" cy="150" r="120" stroke="rgba(26,24,20,.07)"  stroke-width="1"/>
+        <circle cx="150" cy="150" r="80"  stroke="rgba(26,24,20,.07)"  stroke-width="1"/>
+        <circle cx="150" cy="150" r="40"  stroke="rgba(200,86,42,.18)" stroke-width="1.5"/>
+        <line x1="30"  y1="150" x2="270" y2="150" stroke="rgba(26,24,20,.09)" stroke-width=".75"/>
+        <line x1="150" y1="30"  x2="150" y2="270" stroke="rgba(26,24,20,.09)" stroke-width=".75"/>
+        <line x1="65"  y1="65"  x2="235" y2="235" stroke="rgba(26,24,20,.06)" stroke-width=".75"/>
+        <line x1="235" y1="65"  x2="65"  y2="235" stroke="rgba(26,24,20,.06)" stroke-width=".75"/>
+        <circle cx="150" cy="30"  r="9" fill="rgba(200,86,42,.22)" stroke="rgba(200,86,42,.5)"  stroke-width="1"/>
+        <circle cx="270" cy="150" r="9" fill="rgba(184,154,90,.22)" stroke="rgba(184,154,90,.5)" stroke-width="1"/>
+        <circle cx="65"  cy="235" r="9" fill="rgba(200,86,42,.22)" stroke="rgba(200,86,42,.5)"  stroke-width="1"/>
+        <circle cx="235" cy="65"  r="9" fill="rgba(184,154,90,.22)" stroke="rgba(184,154,90,.5)" stroke-width="1"/>
+        <circle cx="150" cy="150" r="8"  fill="#c8562a"/>
+        <circle cx="150" cy="150" r="14" fill="none" stroke="rgba(200,86,42,.3)" stroke-width="1"/>
+        <line x1="150" y1="39"  x2="150" y2="136" stroke="rgba(200,86,42,.4)"  stroke-width="1" stroke-dasharray="4 3"/>
+        <line x1="261" y1="150" x2="164" y2="150" stroke="rgba(184,154,90,.4)" stroke-width="1" stroke-dasharray="4 3"/>
+        <line x1="75"  y1="228" x2="140" y2="161" stroke="rgba(200,86,42,.4)"  stroke-width="1" stroke-dasharray="4 3"/>
+        <line x1="228" y1="72"  x2="161" y2="139" stroke="rgba(184,154,90,.4)" stroke-width="1" stroke-dasharray="4 3"/>
+        <text x="133" y="156" font-family="Georgia,serif" font-size="22" font-style="italic" fill="rgba(200,86,42,.2)">S</text>
+      </svg>
+    </div>
+  </div>
+</div>
+
+<div class="divider">
+  <div class="divider-line"></div>
+  <div class="divider-mark">✦</div>
+  <div class="divider-line"></div>
+</div>
+
+
+<!-- ============================================================
+     VMV — Vision / Mission / Value
+     ============================================================ -->
+<section id="vmv">
+  <p class="sec-label">Vision / Mission / Value</p>
+  <h2 class="sec-h">私たちが目指す世界</h2>
+  <p class="sec-h-en">Our Vision, Mission &amp; Value</p>
+
+  <div class="vmv-problem fade-up">
+    <p class="ja">
+      旅先でも「KFC」や「マック」に入る観光客、現地人と交わらずに観光地を巡るだけの旅行者——<br>
+      観光客とローカルの間には、まだ大きな壁があります。
+    </p>
+    <p class="en">
+      Tourists eating at familiar chain restaurants, sightseers who never interact with locals —<br>
+      there is still a deep wall between visitors and the communities they visit.
+    </p>
+  </div>
+
+  <div class="vmv-cards fade-up">
+    <div class="vmv-card vision">
+      <p class="vmv-tag">Vision</p>
+      <p class="vmv-body-ja">観光客とローカルの<br>壁がない社会</p>
+      <p class="vmv-body-en">A society where no wall exists between tourists and locals.</p>
+    </div>
+    <div class="vmv-card mission">
+      <p class="vmv-tag">Mission</p>
+      <p class="vmv-body-ja">より多くの観光客を、<br>ローカルにする</p>
+      <p class="vmv-body-en">Turning more tourists into locals — giving them language, culture, and real connection.</p>
+    </div>
+    <div class="vmv-card value">
+      <p class="vmv-tag">Value</p>
+      <p class="vmv-body-ja">つながりを楽しみ、<br>大切にする</p>
+      <p class="vmv-body-en">Cherish and celebrate connections — between people, cultures, and values.</p>
+    </div>
+  </div>
+
+  <p class="vmv-note">※「つながり」とは、人と文化・価値観のつながりを指します。</p>
+</section>
+
+<div class="divider-dark">
+  <div class="divider-line"></div>
+  <div class="divider-mark">✦</div>
+  <div class="divider-line"></div>
+</div>
+
+
+<!-- ============================================================
+     ABOUT
+     ============================================================ -->
+<section id="about" class="fade-up">
+  <div class="about-text">
+    <p class="sec-label">About &nbsp;/&nbsp; 会社について</p>
+    <h2 class="sec-h">Symarchについて</h2>
+    <p class="sec-h-en">About Symarch</p>
+
+    <p class="ja">
+      合同会社Symarchは、「観光客とローカルの壁がない社会」の実現を目指し、
+      言語教育・地域メディア・コミュニティ運営を通じて人々のつながりをつくる会社です。
+    </p>
+    <p class="en">
+      Symarch LLC creates meaningful connections between people through language education,
+      local media, and community building — working toward a world with no barriers between tourists and locals.
+    </p>
+
+    <p class="ja">
+      代表の飯野太陽は、慶應義塾大学在学中に世界一周を経験。
+      旅の中で感じた「言語の壁」と「つながりの価値」を原点に、
+      2026年3月帰国直後にChat Japaneseを立ち上げました。
+    </p>
+    <p class="en">
+      Founder Taiyo Iino circumnavigated the globe while studying at Keio University.
+      The language barriers and the power of genuine connection he experienced became
+      the foundation for launching Chat Japanese immediately upon returning to Japan in March 2026.
+    </p>
+  </div>
+
+  <div class="about-stats">
+    <div class="stat-card">
+      <div class="stat-num">2026</div>
+      <div class="stat-ja">設立</div>
+      <div class="stat-en">Year Established</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num">Tokyo</div>
+      <div class="stat-ja">本社所在地</div>
+      <div class="stat-en">Headquarters</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num">No.1</div>
+      <div class="stat-ja">顧客満足度</div>
+      <div class="stat-en">Customer Satisfaction</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num">Global</div>
+      <div class="stat-ja">展開エリア</div>
+      <div class="stat-en">Expanding Worldwide</div>
+    </div>
+  </div>
+</section>
+
+<div class="divider">
+  <div class="divider-line"></div>
+  <div class="divider-mark">✦</div>
+  <div class="divider-line"></div>
+</div>
+
+
+<!-- ============================================================
+     BUSINESS
+     ============================================================ -->
+<section id="business" class="fade-up">
+  <p class="sec-label">Business &nbsp;/&nbsp; 事業内容</p>
+  <h2 class="sec-h">事業内容</h2>
+  <p class="sec-h-en">Our Business</p>
+
+  <div class="biz-grid">
+
+    <!-- 01 Chat Japanese Tokyo -->
+    <div class="biz-card">
+      <div class="biz-num">01</div>
+      <div class="biz-icon">🗾</div>
+      <div class="biz-title-ja">Chat Japanese Tokyo</div>
+      <div class="biz-title-en">Immersive Language School</div>
+      <p class="biz-desc-ja">
+        観光しながら日本語も学べる、新しい体験型語学学校。
+        東京のカフェを教室に、シティウォーク・寿司教室・書道など
+        本物の文化体験を通じて「つながるための日本語」を習得。
+        最短2日・$130〜、旅行者向けのフレキシブルな短期コース。
+      </p>
+      <p class="biz-desc-en">
+        A new immersive language school where you sightsee and learn Japanese at the same time.
+        Café lessons, city walks, and exclusive cultural activities — from just $130 for as little as 2 days.
+      </p>
+      <a href="https://www.chat-japanese-school.com" target="_blank" class="biz-link">
+        chat-japanese-school.com →
+      </a>
+    </div>
+
+    <!-- 02 Localism.blog -->
+    <div class="biz-card">
+      <div class="biz-num">02</div>
+      <div class="biz-icon">✍️</div>
+      <div class="biz-title-ja">Localism.blog</div>
+      <div class="biz-title-en">Local Voice Travel Media</div>
+      <p class="biz-desc-ja">
+        観光客のための「ローカルの生の声」が聞けるブログメディア。
+        ガイドブックには載っていない街の本音・文化の深み・
+        地元民目線のスポットを、実際に暮らす人々が発信。
+        旅をもっとローカルに、もっと豊かにする。
+      </p>
+      <p class="biz-desc-en">
+        A travel blog featuring real voices from locals — stories, spots, and cultural insights
+        you won't find in any guidebook. Written by people who actually live there,
+        for travelers who want to go deeper.
+      </p>
+      <a href="https://www.localism.blog" target="_blank" class="biz-link">
+        localism.blog →
+      </a>
+    </div>
+
+    <!-- 03 Chat Community -->
+    <div class="biz-card">
+      <div class="biz-num">03</div>
+      <div class="biz-icon">🌏</div>
+      <div class="biz-title-ja">Chat Community</div>
+      <div class="biz-title-en">Global Learning Network</div>
+      <p class="biz-desc-ja">
+        旅を続けながら各都市で学べる、グローバル学習コミュニティ。
+        東京・大阪・京都・博多など国内拠点に加え、
+        Chat Korean・Chat Thai・Chat Chineseへと展開予定。
+        連続受講で割引が適用される。
+      </p>
+      <p class="biz-desc-en">
+        A global learning network spanning cities across Japan and beyond —
+        Tokyo, Osaka, Kyoto, Hakata. Expanding to Chat Korean, Thai, and Chinese.
+        Travel further, connect deeper.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<div class="divider">
+  <div class="divider-line"></div>
+  <div class="divider-mark">✦</div>
+  <div class="divider-line"></div>
+</div>
+
+
+<!-- ============================================================
+     REPRESENTATIVE
+     ============================================================ -->
+<section id="representative">
+
+  <div class="fade-up">
+    <!--
+      代表者の写真を用意したら taiyo.jpg（任意のファイル名）を
+      このファイルと同じフォルダに置き、src を差し替えてください。
+      画像がない間はイニシャル "T" がプレースホルダーとして表示されます。
+    -->
+    <div class="rep-portrait" id="rep-portrait-wrap">
+      <img
+        src="taiyo.jpg"
+        alt="飯野 太陽"
+        onerror="this.style.display='none'; document.getElementById('rep-initial').style.display='block';"
+      >
+      <span id="rep-initial" style="display: none;">T</span>
+    </div>
+
+    <p class="rep-role-ja">代表社員</p>
+    <p class="rep-role-en">Representative / Founder</p>
+    <h2 class="rep-name-ja">飯野 太陽</h2>
+    <p class="rep-name-en">Taiyo Iino</p>
+
+    <div class="rep-profile">
+      <div class="rep-profile-item">
+        <span class="rep-year">2023</span>
+        <span class="rep-text">慶應義塾大学 経済学部 入学。インバウンド向けホテルにてアルバイト開始。</span>
+      </div>
+      <div class="rep-profile-item">
+        <span class="rep-year">2025</span>
+        <span class="rep-text">世界一周の旅へ。各国で「つながり」と「言語の壁」を体感。</span>
+      </div>
+      <div class="rep-profile-item">
+        <span class="rep-year">2026</span>
+        <span class="rep-text">帰国直後にChat Japaneseを立ち上げ。合同会社Symarch 設立（予定）。</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="fade-up">
+    <p class="rep-msg-label">Representative Message</p>
+
+    <p class="rep-quote-ja">
+      旅先でも「KFC」や「マック」に入ってしまう——<br>
+      そんな観光客の姿を見るたびに、もどかしさを感じていました。<br>
+      言語さえあれば、もっと深くその国に入り込める。<br>
+      現地の人と笑い合える。本物の旅ができる。
+    </p>
+    <p class="rep-quote-en">
+      I used to feel frustrated seeing tourists eat at familiar chain restaurants abroad —
+      knowing that with just a little language, they could go so much deeper.
+      That's why I built Chat Japanese.
+    </p>
+
+    <p class="rep-quote-ja">
+      私が世界一周で学んだのは、言語は「勉強するもの」ではなく
+      「人と繋がるためのツール」だということ。<br>
+      Symarchは、その信念のもとに生まれた会社です。
+    </p>
+    <p class="rep-quote-en">
+      What I learned traveling the world is that language isn't something you study —
+      it's a tool for connecting with people.
+      Symarch was born from that belief.
+    </p>
+  </div>
+
+</section>
+
+
+<!-- ============================================================
+     COMPANY INFO
+     ============================================================ -->
+<section id="company" class="fade-up">
+  <p class="sec-label">Company Info &nbsp;/&nbsp; 会社概要</p>
+  <h2 class="sec-h">会社概要</h2>
+  <p class="sec-h-en">Company Profile</p>
+
+  <table class="co-table">
+    <tr>
+      <th>
+        <span class="th-en">Company Name</span>
+        <span class="th-ja">会社名</span>
+      </th>
+      <td>
+        <span class="td-ja">合同会社Symarch（シマーク）</span>
+        <span class="td-en">Symarch LLC</span>
+      </td>
+    </tr>
+    <tr>
+      <th>
+        <span class="th-en">Representative</span>
+        <span class="th-ja">代表社員</span>
+      </th>
+      <td>
+        <span class="td-ja">飯野 太陽</span>
+        <span class="td-en">Taiyo Iino</span>
+      </td>
+    </tr>
+    <tr>
+      <th>
+        <span class="th-en">Established</span>
+        <span class="th-ja">設立</span>
+      </th>
+      <td>
+        <span class="td-ja">2026年5月（予定）</span>
+        <span class="td-en">May 2026 (planned)</span>
+      </td>
+    </tr>
+    <tr>
+      <th>
+        <span class="th-en">Headquarters</span>
+        <span class="th-ja">所在地</span>
+      </th>
+      <td>
+        <span class="td-ja">東京都</span>
+        <span class="td-en">Tokyo, Japan</span>
+      </td>
+    </tr>
+    <tr>
+      <th>
+        <span class="th-en">Business</span>
+        <span class="th-ja">事業内容</span>
+      </th>
+      <td>
+        <span class="td-ja">
+          体験型語学教育（Chat Japanese Tokyo）／
+          ローカル旅行メディア（Localism.blog）／
+          グローバル学習コミュニティ（Chat Community）
+        </span>
+        <span class="td-en">
+          Immersive Language Education · Local Travel Media · Global Learning Community
+        </span>
+      </td>
+    </tr>
+    <tr>
+      <th>
+        <span class="th-en">Services</span>
+        <span class="th-ja">関連サービス</span>
+      </th>
+      <td>
+        <span class="td-ja">
+          <a href="https://www.chat-japanese-school.com" target="_blank">Chat Japanese Tokyo →</a><br>
+          <a href="https://www.localism.blog"            target="_blank">Localism.blog →</a>
+        </span>
+      </td>
+    </tr>
+    <tr>
+      <th>
+        <span class="th-en">Contact</span>
+        <span class="th-ja">お問い合わせ</span>
+      </th>
+      <td>
+        <span class="td-ja">
+          <a href="mailto:chatjapanese55@gmail.com">chatjapanese55@gmail.com</a>
+        </span>
+        <span class="td-en">Mon–Fri, 9:00–18:00 JST</span>
+      </td>
+    </tr>
+  </table>
+</section>
+
+
+<!-- ============================================================
+     CONTACT
+     ============================================================ -->
+<section id="contact" class="fade-up">
+  <p class="sec-label">Contact &nbsp;/&nbsp; お問い合わせ</p>
+  <h2 class="sec-h">お問い合わせ</h2>
+  <p class="sec-h-en">Get in Touch</p>
+
+  <p class="contact-lead-ja">
+    ご質問・お仕事のご相談・取材はもちろん、<br>
+    <strong>一緒に働きたい方もお気軽にご連絡ください。</strong>
+  </p>
+  <p class="contact-lead-en">
+    For general inquiries, business proposals, and press requests —<br>
+    and if you'd like to join our team, we'd love to hear from you.
+  </p>
+
+  <div class="contact-cards">
+    <div class="contact-card">
+      <p class="contact-card-label">Email</p>
+      <a href="mailto:chatjapanese55@gmail.com" class="contact-email">
+        chatjapanese55@gmail.com
+      </a>
+      <p class="contact-note-ja">平日 9:00〜18:00（日本時間）にご返信いたします。</p>
+      <p class="contact-note-en">Replies within 1–2 business days (JST)</p>
+    </div>
+
+    <div class="contact-card">
+      <p class="contact-card-label">Instagram</p>
+      <a href="https://www.instagram.com/chat_community.japan" target="_blank" class="contact-email" style="font-size: 15px;">
+        @chat_community.japan
+      </a>
+      <p class="contact-note-ja">DMでもお気軽にどうぞ。</p>
+      <p class="contact-note-en">Feel free to DM us on Instagram.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer>
+  <div class="footer-inner">
+    <div>
+      <div class="footer-brand-en">Symarch</div>
+      <div class="footer-brand-ja">合同会社シマーク</div>
+    </div>
+    <ul class="footer-links">
+      <li><a href="#vmv">ビジョン</a></li>
+      <li><a href="#about">会社について</a></li>
+      <li><a href="#business">事業内容</a></li>
+      <li><a href="#representative">代表</a></li>
+      <li><a href="#company">会社概要</a></li>
+      <li><a href="#contact">お問い合わせ</a></li>
+    </ul>
+  </div>
+  <p class="footer-copy">© 2026 合同会社Symarch (Symarch LLC). All rights reserved.</p>
+</footer>
+
+
+<!-- ============================================================
+     JavaScript
+     ============================================================ -->
+<script>
+  // フェードインアニメーション
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+        io.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.07 });
+
+  document.querySelectorAll('.fade-up').forEach(el => io.observe(el));
+
+  // スクロールでナビを細くする
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => {
+    nav.style.padding = window.scrollY > 40 ? '10px 56px' : '16px 56px';
+  }, { passive: true });
+</script>
+
+</body>
+</html>
